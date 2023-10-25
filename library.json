@@ -1,0 +1,19 @@
+{
+    "name": "WS_V2",
+    "version": "1.0.0",
+    "description": "Librería para definiciones de pins.",
+    "authors": [
+      {
+        "name": "Emmanuel Lastra Williams",
+        "url": "https://github.com/elastra21"
+      }
+    ],
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/tu_usuario/WS_V2.git"
+    },
+    "platforms": ["*"],
+    "frameworks": ["arduino"],
+    "dependencies": {}
+  }
