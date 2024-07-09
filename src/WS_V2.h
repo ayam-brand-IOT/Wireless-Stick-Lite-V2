@@ -1,7 +1,12 @@
+// ###################### NOTICE ######################
+// #THIS FILE ONLY WORKS WITH THE CHICA-LORA REV 0.0.4#
+// ####################################################
+
 #include <Arduino.h>
 
 #ifndef WS_V2_h
 #define WS_V2_h
+
 
 // ###################### PORT A ######################
 // Reserved for analog inputs
@@ -25,12 +30,12 @@
 #define PORT_C0 33
 #define PORT_C1 12
 #define PORT_C2 34
-#define PORT_C3 20
+#define PORT_C3 2
 
 // ###################### PORT D ######################
 // FREE for use as digital inputs or outputs
 
-#define PORT_D0 19
+#define PORT_D0 3
 #define PORT_D1 4
 #define PORT_D2 14
 #define PORT_D3 5
@@ -39,7 +44,7 @@
 // Reserved for digital outputs
 
 #define AI_0         PORT_A0 //
-#define AI_1         PORT_A1 // Was causing problems
+#define AI_1         PORT_A1 //
 #define AI_2         PORT_A2 //
 #define AI_3         PORT_A3 // 
 
@@ -51,8 +56,8 @@ sizeof(analog_inputs)/sizeof(analog_inputs[0]);
 
 // ######################## RS-485 PINS ########################
 
-#define RS_485_TX   43 
-#define RS_485_RX   44
+#define RS_485_TX   20   
+#define RS_485_RX   19
 
 // ########################## I2C PINS #########################
 
