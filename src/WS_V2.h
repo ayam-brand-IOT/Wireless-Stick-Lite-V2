@@ -56,8 +56,8 @@ sizeof(analog_inputs)/sizeof(analog_inputs[0]);
 
 // ######################## RS-485 PINS ########################
 
-#define RS_485_TX   20   
-#define RS_485_RX   19
+#define RS_485_TX   33   
+#define RS_485_RX   34
 
 // ########################## I2C PINS #########################
 
