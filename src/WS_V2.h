@@ -19,23 +19,23 @@
 // ###################### PORT B ######################
 // Reserved for digital inputs
 
-#define PORT_B0 17 
-#define PORT_B1 1  
-#define PORT_B2 18  
-#define PORT_B3 21 // este
+#define PORT_B0 46
+#define PORT_B1 1
+#define PORT_B2 26
+#define PORT_B3 39
 
 // ###################### PORT C ######################
 // Reserved for digital outputs
 
-#define PORT_C0 39  // este peeeeedo
+#define PORT_C0 33
 #define PORT_C1 12
-#define PORT_C2 47  // este
+#define PORT_C2 34
 #define PORT_C3 2
 
 // ###################### PORT D ######################
 // FREE for use as digital inputs or outputs
 
-#define PORT_D0 48 // este
+#define PORT_D0 3
 #define PORT_D1 4
 #define PORT_D2 14
 #define PORT_D3 5
@@ -67,7 +67,7 @@ sizeof(analog_inputs)/sizeof(analog_inputs[0]);
 // ########################## IO's #########################
 
 const uint8_t inputs[] = {PORT_B0, PORT_B1, PORT_B2, PORT_B3}; //PORT_B
-const uint8_t outputs[] = {PORT_D0, PORT_D1, PORT_D2, PORT_D3, PORT_C0, PORT_C1, PORT_C2, PORT_C3}; //PORT_D and PORT_C
+const uint8_t outputs[] = {PORT_D0, PORT_D1, PORT_D2, PORT_D3}; //PORT_D
 
 const uint8_t inputs_size = sizeof(inputs)/sizeof(inputs[0]);
 const uint8_t outputs_size = sizeof(outputs)/sizeof(outputs[0]);
